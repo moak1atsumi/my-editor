@@ -3,8 +3,8 @@
         try {
           // 両方のJSONファイルを並行して読み込み
           const [partsResponse, pageResponse] = await Promise.all([
-            fetch('/my-editor/sample-default-parts.json'),
-            fetch('/my-editor/sample-page.json'),
+            fetch('./sample-default-parts.json'),
+            fetch('./sample-page.json'),
           ])
 
           const partsData = await partsResponse.json()
