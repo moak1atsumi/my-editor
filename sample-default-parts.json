@@ -1,0 +1,37 @@
+[
+  {
+    "type": "title",
+    "module": [
+      {
+        "title": "title_1_1",
+        "body": "<div class=\"m_titleA ($state:s_state1|s_state2) ($variant:s_state3|s_state4|)\">\n  <h1 class=\"m_titleA__title\">{$title:メインタイトルテキスト}</h1>\n  <div class=\"m_titleA__label ($label_state?:s_state5|s_state6|s_state7)\">{$label:ラベルテキスト}</div>\n  <div class=\"m_titleA__contents\">\n    @slot($nested_parts)@\n  </div>\n  <img src=\"{$image_url:input}\" alt=\"{$image_alt:画像の説明テキスト}\">\n  <div class=\"m_titleA__card\">\n@for($cards):\n  <div class=\"m_titleA__cardList ($card_state:s_state1|s_state2)\">\n    <div>{$card_title:カードアイテム1}</div>\n    <div>{$card_desc:カードアイテム2}</div>\n  </div>\n@endfor\n  </div>\n</div>"
+      },
+      {
+        "title": "title_1_2",
+        "body": "<div class=\"m_titleB ($style:s_primary|s_secondary)\">\n  <h2 class=\"m_titleB__heading\">{$title:サブタイトル}</h2>\n  <p class=\"m_titleB__description\">{$description:説明文テキスト}</p>\n  <div class=\"m_titleB__nested\">\n    @slot($nested_parts)@\n  </div>\n</div>"
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "module": [
+      {
+        "title": "text_1_1",
+        "body": "<div class=\"m_text ($state:s_state1|s_state2)\">\n  <div class=\"m_text__content\">{$content:ここにテキスト内容を入力してください。複数の段落や書式設定が可能です。}</div>\n  <div class=\"m_text__nested\">\n    @slot($nested_parts)@\n  </div>\n</div>"
+      },
+      {
+        "title": "text_1_2",
+        "body": "<div class=\"m_textArea ($size:s_large|s_medium|s_small)\">\n  <div class=\"m_textArea__content\">\n    <h3>{$heading:見出しテキスト}</h3>\n    <div class=\"m_textArea__text\">{$content:ここに詳細なテキスト内容を入力してください。リッチテキスト編集が可能です。}</div>\n  </div>\n</div>"
+      }
+    ]
+  },
+  {
+    "type": "button",
+    "module": [
+      {
+        "title": "button_1_1",
+        "body": "<div class=\"m_button ($style:s_primary|s_secondary|s_danger)\">\n  <button class=\"m_button__btn ($size:s_large|s_medium|s_small)\" type=\"($button_type:button|submit)\">\n    {$text:ボタンテキスト}\n  </button>\n</div>"
+      }
+    ]
+  }
+]

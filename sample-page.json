@@ -1,0 +1,114 @@
+[
+  {
+    "id": "gadvadakrng886a",
+    "type": "title",
+    "module_name": "title_1_1",
+    "class_state": "s_state1",
+    "class_variant": "s_state4",
+    "class_label_state": ["s_state6", "s_state7"],
+    "title": "メインページタイトル",
+    "label": "重要なお知らせ",
+    "src_image_url": "/assets/img/hero_image.jpg",
+    "alt_image_alt": "メインビジュアル画像",
+    "nested_parts": [
+      {
+        "id": "nested_text_001",
+        "type": "text",
+        "module_name": "text_1_2",
+        "class_size": "s_large",
+        "heading": "詳細情報セクション",
+        "content": "<p>このセクションでは<strong>重要な情報</strong>をお伝えします。</p><p>お客様のニーズに合わせて、最適なソリューションを提供いたします。</p><p>リッチテキスト編集により、<em>書式設定</em>や<u>装飾</u>、<a href=\"#\">リンク</a>なども設定できます。</p>"
+      },
+      {
+        "id": "nested_title_001",
+        "type": "title",
+        "module_name": "title_1_2",
+        "class_style": "s_secondary",
+        "title": "サブセクションタイトル",
+        "description": "詳細な説明文がここに入ります。",
+        "nested_parts": [
+          {
+            "id": "deep_nested_text_001",
+            "type": "text",
+            "module_name": "text_1_1",
+            "class_state": "s_state1",
+            "content": "<p>これは3階層目のネストテキストです。</p><p><strong>深い階層</strong>でもTiptap編集が可能です。</p>",
+            "nested_parts": [
+              {
+                "id": "very_deep_nested_text_001",
+                "type": "text",
+                "module_name": "text_1_2",
+                "class_size": "s_small",
+                "heading": "4階層目の見出し",
+                "content": "<p>これは<em>4階層目</em>のネストテキストです！</p><p>無限階層システムが正常に動作しています。</p>"
+              },
+              {
+                "id": "very_deep_nested_button_001",
+                "type": "button",
+                "module_name": "button_1_1",
+                "class_style": "s_secondary",
+                "class_size": "s_small",
+                "type_button_type": "button",
+                "text": "4階層目ボタン"
+              }
+            ]
+          },
+          {
+            "id": "deep_nested_button_001",
+            "type": "button",
+            "module_name": "button_1_1",
+            "class_style": "s_danger",
+            "class_size": "s_small",
+            "type_button_type": "button",
+            "text": "深層ボタン"
+          }
+        ]
+      },
+      {
+        "id": "aasdvadaqrng886a",
+        "type": "button",
+        "module_name": "button_1_1",
+        "class_style": "s_primary",
+        "class_size": "s_large",
+        "type_button_type": "button",
+        "text": "詳細を見る"
+      }
+    ],
+    "cards": [
+      {
+        "id": "card_001",
+        "class_card_state": "s_state2",
+        "card_title": "サービス1",
+        "card_desc": "高品質なサービスを提供します"
+      },
+      {
+        "id": "card_002",
+        "class_card_state": "s_state1",
+        "card_title": "サービス2",
+        "card_desc": "お客様のニーズに合わせたソリューション"
+      },
+      {
+        "id": "card_003",
+        "class_card_state": "s_state2",
+        "card_title": "サービス3",
+        "card_desc": "24時間サポート体制"
+      }
+    ]
+  },
+  {
+    "id": "gaddadakrng886a",
+    "type": "text",
+    "module_name": "text_1_1",
+    "class_state": "s_state2",
+    "content": "<p>追加のテキストコンテンツです。</p><p>複数の段落を含むことができます。</p><p><strong>Tiptapエディター</strong>により、<em>書式設定</em>、<u>下線</u>、<mark>ハイライト</mark>、<a href=\"https://example.com\">リンク</a>などの機能を使用できます。</p>"
+  },
+  {
+    "id": "button_section_001",
+    "type": "button",
+    "module_name": "button_1_1",
+    "class_style": "s_secondary",
+    "class_size": "s_medium",
+    "type_button_type": "submit",
+    "text": "送信する"
+  }
+]
